@@ -18,10 +18,18 @@ def lowerCase(lowerCase):
 
 # 4.Bruteforce - All the options - (len(list) ^ LenOfFlag)
 def Bruteforce(list,LenOfFlag):
+    f=open("bdika2.txt","w")
     iterator=itertools.product(list,repeat=LenOfFlag)
     for i in iterator:
         flag="".join(i)
+        f.write(flag)
         print(flag)
+    f.close()
+
+list=[]
+Numbers(list)
+lowerCase(list)
+Bruteforce(list,2)
 
 
 
