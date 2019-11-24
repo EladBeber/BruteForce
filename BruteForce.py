@@ -22,7 +22,6 @@ def Bruteforce(list,LenOfFlag):
     for i in iterator:
         flag="".join(i)
         print(flag)
-    f.close()
 
 list=[]
 Numbers(list)
