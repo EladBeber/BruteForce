@@ -22,12 +22,3 @@ def Bruteforce(list,LenOfFlag):
     for i in iterator:
         flag="".join(i)
         print(flag)
-
-list=[]
-Numbers(list)
-lowerCase(list)
-Bruteforce(list,2)
-
-
-
-
