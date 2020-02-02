@@ -12,7 +12,7 @@ So in this case it is XOR with **"75 03 65 ee 75 03 65 ee "** and the 4 bytes ar
 
 ## Read the asm
 
-1.In the main its check whether argc = 2 either exit probably..
+1.In the main its check whether argc = 2 either exit probably..  
 2.call _access to check whether the file mode is **Read/write** , Either exit...
 
 
